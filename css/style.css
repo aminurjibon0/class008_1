@@ -1,0 +1,293 @@
+/*global*/
+body {
+  font-family: 'Playfair Display', serif;
+  padding: 0;
+  margin: 0;
+  color: 
+}
+
+
+header {
+  padding: 30px 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0 auto;
+  overflow: hidden;
+/*  border: 1px solid purple;*/
+}
+
+.logo {
+  width: 14%;
+/*  border: 1px solid purple;*/
+  float: left;
+  margin-top: 8px;
+}
+.logo img {
+  width: 100%;
+}
+.menu_bar {
+  float: right;
+  font-size: 25px;
+  padding: 0 10px;
+  display: none;
+}
+.menu {
+/*  border: 1px solid purple;*/
+  float: right;
+  width: 79%;
+}
+.menu ul {
+  list-style: none;
+/*
+  margin: 0;
+  padding: 0;
+*/
+  float: right;
+}
+.menu ul li {
+  float: left;
+}
+.menu ul li a {
+  font-size: 14px;
+  color: #626262;
+  text-decoration: none;
+  display: block;
+  padding: 0 30%;
+  text-transform: uppercase;
+  transition: .3s;
+}
+.menu ul li a:hover {
+  color: #000;
+}
+.menu ul li:last-child a {
+  padding-right: 0;
+}
+.banner {
+  margin-bottom: 70px;
+}
+.banner img {
+  width: 100%;
+}
+.photodiary {
+  padding: 0 30px;
+}
+.photo_text {
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  margin: 40px 0;
+}
+.blog_heading_text {
+  font-weight: bold;
+  font-size: 30px;
+  color: #626262;
+}
+.blog_text {
+  font-size: 14px;
+  font-weight: 300;
+  color: #626262;
+  line-height: 27px;
+}
+.blogs {
+}
+
+.single {
+  width: 49%;
+  float: left;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.blog_img {
+  width: 100%;
+}
+.blog_img img {
+  width: 100%;
+}
+
+.blog_content {
+}
+
+.newsletter {
+  text-align: center;
+  background: #f0f0f0;
+  padding: 60px 0;
+  margin: 40px 0;
+}
+.newsletter h1 {
+  font-weight: bold;
+  font-size: 30px;
+  color: #333333;
+}
+
+.newsletter_input {
+  width: 300px;
+  margin: 60px auto 30px auto;
+  position: relative;
+  
+}
+.newsletter_input input {
+  width: 100%;
+  border-style: none;
+  border: 2px solid transparent;
+  border-bottom: 2px solid #050505;
+  padding: 10px 40px 10px 12px; 
+  background: transparent; 
+  transition: all .3s;
+}
+.newsletter_input input:focus {
+  border: 2px solid purple;
+}
+.newsletter_input img {
+  position: absolute;
+  top: 10px;
+  right: -50px;
+}
+.load_btn {
+  text-align: center;
+  padding: 70px 0;
+}
+.load_btn button {
+  font-size: 20px;
+  border-style: none;
+  background: transparent;
+  padding: 25px 30px;
+  border: 1px solid #626262;
+  transition: .3s;
+}
+.load_btn button:hover {
+  background: #F0F0F0;
+  color: #7f7f7f;
+  border: 1px solid transparent;
+}
+
+footer {
+  background: #F0F0F0;
+  padding: 40px 0;
+}
+.term_condition {
+  float: left;
+  padding-top: 15px;
+}
+.term_condition ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.term_condition ul li {
+  float: left;
+}
+.term_condition ul li a {
+  padding: 0 10px;
+  display: block;
+  text-decoration: none;
+  color: #101010;
+}
+.term_condition ul li:first-child a {
+  padding-left: 0;
+}
+
+.social_link {
+  float: right;
+}
+.social_link ul {
+  list-style: none;
+  float: right;
+}
+.social_link ul li {
+  float: left;
+}
+.social_link ul li a {
+  font-size: 18px;
+  display: block;
+  padding: 0 10px;
+  color: #727272;
+}
+.facebook:hover {
+  color: #4267B2;
+}
+.twitter:hover {
+  color: #1DA1F2;
+}
+.instagram:hover {
+  color: #FAAC92;
+}
+
+
+.social_link ul li:last-child a {
+  padding-right: 0;
+}
+
+@media only screen and (max-width: 992px) {
+
+  .menu {
+    /*  border: 1px solid purple;*/
+    float: right;
+    width: 80%;
+  }
+
+  .menu ul {
+    list-style: none;
+    /*
+  margin: 0;
+  padding: 0;
+*/
+    float: right;
+  }
+
+  .menu ul li {
+    float: left;
+  }
+  .menu ul li a {
+    padding: 0 35px;
+  }
+  .single {
+    width: 49%;
+    float: left;
+    padding: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  header {
+    padding: 20px 0;
+  }
+
+  .wrapper {
+    width: 95%;
+  }
+
+  .logo {
+    width: 25%;
+  }
+  .menu_bar {
+    display: block;
+  }
+  .menu {
+    display: none;
+    float: none;
+  }
+  .banner {
+    margin-bottom: 10px;
+  }
+
+  .photodiary {
+    padding: 0 10px;
+  }
+
+  .photo_text {
+    margin: 30px 0;
+  }
+
+  .blog_heading_text {
+    font-size: 22px;
+  }
+  .single {
+    width: 100%;
+    float: left;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+}
