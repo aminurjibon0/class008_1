@@ -203,6 +203,7 @@ footer {
   display: block;
   padding: 0 10px;
   color: #727272;
+  text-decoration: none;
 }
 .facebook:hover {
   color: #4267B2;
