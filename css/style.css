@@ -157,8 +157,8 @@ header {
   transition: .3s;
 }
 .load_btn button:hover {
-  background: #636159;
-  color: #ffffff;
+  background: #5b6061;
+  color: #dbe0e0;
   border: 1px solid transparent;
 }
 
